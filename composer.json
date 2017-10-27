@@ -6,7 +6,7 @@
     "homepage": "http://github.com/Rushore/proxmox",
     "authors": [
         {
-            "name": "Rushore",
+            "name": "Rushore"
         }
     ],
     "require": {
