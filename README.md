@@ -1,4 +1,4 @@
-Proxmox Laravel Bindings
+Proxmox Laravel Bindings | Updated by Rushore | For Laravel 5.5
 =======
 
 This package is a wrapper for the ProxmoxVE package made by
@@ -15,15 +15,15 @@ library, you need to make your changes open source under the LGPL.
 
 Installation
 -----
-Add the package `someguy123/proxmox` to your composer.json
+Add the package `Rushore/proxmox` to your composer.json
 
-    $ composer require someguy123/proxmox 1.*
+    $ composer require Rushore/proxmox 1.*
 
 or
 
     {
         "require": {
-            "someguy123/proxmox": "1.*"
+            "Rushore/proxmox": "1.*"
         }
     }
 
@@ -43,14 +43,14 @@ Add the service provider and alias to your app.php
 
 Publish the configuration file
 
-    $ php artisan config:publish someguy123/proxmox
+    $ php artisan config:publish Rushore/proxmox
 
 **(Laravel 4.3 / 5)**
 
-    $ php artisan publish:config someguy123/proxmox
+    $ php artisan publish:config Rushore/proxmox
 
-Fill in `app/config/packages/someguy123/proxmox/server.php`
-or `config/packages/someguy123/proxmox/server.php` depending on your Laravel
+Fill in `app/config/packages/Rushore/proxmox/server.php`
+or `config/packages/Rushore/proxmox/server.php` depending on your Laravel
 version. This file contains the Proxmox API connection information, and must
 be filled in before use. (you can also fill in the details in your environment
 file)
@@ -68,11 +68,3 @@ Example:
     dd($allnodes);
 
 Donations
---------
-I accept both Bitcoin and Litecoin donations. Please be aware that I only
-created the wrapper, not the original Proxmox class.
-
-
-**Bitcoin:** 1SomguYYsdeBFYv9ujGt1V64PwssXco5z
-
-**Litecoin:** LYmpJZm1WrP5FSnxwkV2TTo5SkAF4Eha31
