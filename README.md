@@ -41,14 +41,6 @@ Add the service provider and alias to your app.php
         // ...
     ]
 
-Publish the configuration file
-
-    $ php artisan config:publish Rushore/proxmox
-
-**(Laravel 4.3 / 5)**
-
-    $ php artisan publish:config Rushore/proxmox
-
 Fill in `app/config/packages/Rushore/proxmox/server.php`
 or `config/packages/Rushore/proxmox/server.php` depending on your Laravel
 version. This file contains the Proxmox API connection information, and must
@@ -66,5 +58,3 @@ Example:
 
     $allnodes = Proxmox::get('/nodes');
     dd($allnodes);
-
-Donations
