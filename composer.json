@@ -1,5 +1,5 @@
 {
-    "name": "Rushore/proxmox",
+    "name": "rushore/proxmox",
     "description": "Laravel Bindings for the ZzAntares ProxmoxVE composer package ",
     "license": "LGPL-3",
     "keywords": ["proxmox","proxmoxve","laravel"],
