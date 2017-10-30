@@ -6,12 +6,18 @@ ZzAntares (https://github.com/zzantares/proxmoxve). This package
 allows easy use of the ProxmoxVE package by adding a
 facade, and a config file.
 
+Update
+------
+
+Updated for Laravel 5.5 by Rushore
+
 License
 ------
 This package is released under the LGPL. (Read LICENSE)
 
 Tl;dr; you can use it in a proprietary project, but if you modify the actual
 library, you need to make your changes open source under the LGPL.
+
 
 Installation
 -----
