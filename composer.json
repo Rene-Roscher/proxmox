@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "zzantares/proxmoxve": "dev-guzzle6"
+        "zzantares/proxmoxve": "dev-master"
     },
     "autoload": {
         "psr-0": {
