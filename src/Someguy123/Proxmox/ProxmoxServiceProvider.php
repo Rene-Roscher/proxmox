@@ -19,27 +19,10 @@ class ProxmoxServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-        $this->package('someguy123/proxmox');
-
-        \App::bind('proxmox', function()
-        {
-            $credentials = Config::get('proxmox::server.server');
-            var_dump($credentials);
-            $proxmox = new \ProxmoxVE\Proxmox($credentials);
-            return $proxmox;
-        });
-
-
-	}
-
-	/**
-	 * Get the services provided by the provider.
-	 *
-	 * @return array
-	 */
-	public function provides()
-	{
-		return array();
+		$this->app->bind('proxmox', function()
+		{
+		    return new \ProxmoxVE\Proxmox(Config::get('proxmox::server.server'));
+		});
 	}
 
 }
