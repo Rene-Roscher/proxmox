@@ -28,7 +28,7 @@ class ProxmoxServiceProvider extends ServiceProvider {
 	{
 		$this->app->bind('proxmox', function()
 		{
-		    return new \ProxmoxVE\Proxmox(Config::get('proxmox::server.server'));
+		    return new \ProxmoxVE\Proxmox($app['config']->get('proxmox.server'));
 		});
 	}
 
