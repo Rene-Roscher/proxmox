@@ -1,4 +1,4 @@
-Proxmox Laravel Bindings | Updated by Rushore | For Laravel 5.5
+Proxmox Laravel Bindings | Updated by InFeCtedEv | For Laravel 7.*
 =======
 
 This package is a wrapper for the ProxmoxVE package made by
