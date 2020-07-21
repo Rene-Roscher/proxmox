@@ -1,12 +1,12 @@
 {
-    "name": "rushore/proxmox",
+    "name": "rene-roscher/proxmox",
     "description": "Laravel Bindings for the ZzAntares ProxmoxVE composer package ",
     "license": "LGPL-3",
     "keywords": ["proxmox","proxmoxve","laravel"],
-    "homepage": "http://github.com/Rushore/proxmox",
+    "homepage": "http://github.com/InFeCtedEv/proxmox",
     "authors": [
         {
-            "name": "Rushore"
+            "name": "InFeCtedEv"
         }
     ],
     "require": {
