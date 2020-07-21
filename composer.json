@@ -1,7 +1,7 @@
 {
     "name": "rene-roscher/proxmox",
     "description": "Laravel Bindings for the ZzAntares ProxmoxVE composer package ",
-    "license": "LGPL-3",
+    "license": "MIT",
     "keywords": ["proxmox","proxmoxve","laravel"],
     "homepage": "http://github.com/InFeCtedEv/proxmox",
     "authors": [
