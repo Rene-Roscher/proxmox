@@ -9,11 +9,11 @@
 
 return [
     'server' => [
-        'hostname' => getenv('PROXMOX_HOST'),
-        'username' => getenv('PROXMOX_USER'),
-        'password' => getenv('PROXMOX_PASS'),
+        'hostname' => env('PROXMOX_HOST'),
+        'username' => env('PROXMOX_USER'),
+        'password' => env('PROXMOX_PASS'),
         // sensible defaults for these two
-        'realm'    => getenv('PROXMOX_REALM') ?: 'pam',
-        'port'     => getenv('PROXMOX_PORT') ?: 8006,
+        'realm'    => env('PROXMOX_REALM', 'pam'),
+        'port'     => env('PROXMOX_PORT', 8006),
     ]
 ];
