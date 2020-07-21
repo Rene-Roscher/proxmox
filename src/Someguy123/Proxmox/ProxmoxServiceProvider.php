@@ -12,6 +12,13 @@ class ProxmoxServiceProvider extends ServiceProvider {
 	 */
 	protected $defer = false;
 
+	public function boot()
+	{
+		$this->publishes([
+		    __DIR__.'/../../config/proxmox.php' => config_path('proxmox.php'),
+		]);
+	}
+	
 	/**
 	 * Register the service provider.
 	 *
